@@ -1,4 +1,4 @@
-name: Build
+name: Pull requests
 
 on:
   pull_request:
