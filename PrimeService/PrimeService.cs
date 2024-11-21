@@ -20,5 +20,10 @@
 
       return true;
     }
+
+    public int Divide(int a, int b)
+    {
+      return a / b;
+    }
   }
 }

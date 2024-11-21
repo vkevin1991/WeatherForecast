@@ -12,5 +12,13 @@ namespace Prime.UnitTests.Services
 
       Assert.False(result, "1 should not be prime");
     }
+
+    [Fact]
+    public void ShouldBeAbleToDivide()
+    {
+      var primeService = new PrimeService();
+      int result = primeService.Divide(2, 2);
+      Assert.Equal(result, 1);
+    }
   }
 }
