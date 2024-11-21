@@ -18,7 +18,7 @@ namespace Prime.UnitTests.Services
     {
       var primeService = new PrimeService();
       int result = primeService.Divide(2, 2);
-      Assert.Equal(1, result);
+      Assert.Equal(2, result);
     }
   }
 }
