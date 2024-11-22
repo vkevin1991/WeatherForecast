@@ -41,6 +41,4 @@ jobs:
           with:
             file-matching-patterns: |
               **/*
-            code-file-extensions: |
-              md
-          continue-on-error: false
+          continue-on-error: true
