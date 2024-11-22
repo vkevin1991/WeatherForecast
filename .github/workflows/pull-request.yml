@@ -38,4 +38,6 @@ jobs:
           uses: microsoft/PR-Metrics@v1.6.3
           env:
             PR_METRICS_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            base-size: 20
           continue-on-error: true
