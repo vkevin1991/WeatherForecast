@@ -43,4 +43,4 @@ jobs:
               **/*
             code-file-extensions: |
               md
-          continue-on-error: true
+          continue-on-error: false
