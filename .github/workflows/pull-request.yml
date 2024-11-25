@@ -39,4 +39,6 @@ jobs:
           with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             fail_if_xl: 'true'
+            files_to_ignore: |
+              */**.svg
 
